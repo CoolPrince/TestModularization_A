@@ -1,0 +1,16 @@
+PODS:
+  - TestModularization_A (0.1.0)
+
+DEPENDENCIES:
+  - TestModularization_A (from `../`)
+
+EXTERNAL SOURCES:
+  TestModularization_A:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestModularization_A: 6f7239857bbacafdd04f9a5a30d236bfef38729e
+
+PODFILE CHECKSUM: 3d6d817b5dfeece85b92d95975744db524bc9353
+
+COCOAPODS: 1.6.1

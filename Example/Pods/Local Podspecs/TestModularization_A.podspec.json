@@ -1,0 +1,22 @@
+{
+  "name": "TestModularization_A",
+  "version": "0.1.0",
+  "summary": "A short description of TestModularization_A.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cuchch@163.com/TestModularization_A",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cuchch@163.com": "cuchch@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cuchch@163.com/TestModularization_A.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestModularization_A/Classes/**/*"
+}

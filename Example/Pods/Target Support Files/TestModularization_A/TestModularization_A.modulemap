@@ -1,0 +1,6 @@
+framework module TestModularization_A {
+  umbrella header "TestModularization_A-umbrella.h"
+
+  export *
+  module * { export * }
+}

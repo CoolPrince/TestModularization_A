@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestModularization_A'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TestModularization_A.'
+  s.summary          = 'Project TestModularization_A.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/cuchch@163.com/TestModularization_A'
+  # s.homepage         = 'https://github.com/cuchch@163.com/TestModularization_A'
+  s.homepage         = 'https://github.com/CoolPrince/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'cuchch@163.com' => 'cuchch@163.com' }
-  s.source           = { :git => 'https://github.com/cuchch@163.com/TestModularization_A.git', :tag => s.version.to_s }
+  s.author           = { 'ccc' => 'cuchch@163.com' }
+  # s.source           = { :git => 'https://github.com/cuchch@163.com/TestModularization_A.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CoolPrince/TestModularization_A.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TestModularization_A/Classes/**/*'
+  # s.source_files = 'TestModularization_A/Example for TestModularization_A/**/*'
+  s.swift_version = '4.2'
+  s.requires_arc  = true
   
   # s.resource_bundles = {
   #   'TestModularization_A' => ['TestModularization_A/Assets/*.png']
