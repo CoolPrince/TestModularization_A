@@ -12,8 +12,8 @@
 		509EFE7D38B8E60070E4F50567520071 /* Pods-TestModularization_A_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 512951AC72FDD04CE0562393CDE32EE6 /* Pods-TestModularization_A_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57466598E8FE1EF436050D30D27C24E0 /* TestModularization_A-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 129BF9A18B929AA82C57F852F83D9B4E /* TestModularization_A-dummy.m */; };
 		6D81F843528982A759A15CE3F9D1FB15 /* Pods-TestModularization_A_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D31EECD3414A838FD98A77FC12C97169 /* Pods-TestModularization_A_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		813348162230DFAF001BFAB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813348152230DFAF001BFAB7 /* ViewController.swift */; };
-		813348182230DFFE001BFAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813348172230DFFE001BFAB7 /* Main.storyboard */; };
+		8133481B2230E681001BFAB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813348192230E681001BFAB7 /* ViewController.swift */; };
+		8133481C2230E681001BFAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8133481A2230E681001BFAB7 /* Main.storyboard */; };
 		89E9125073BAF1ECFD7390A97C34465F /* Pods-TestModularization_A_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B8166FD8F8584739040FDFC0A6579 /* Pods-TestModularization_A_Tests-dummy.m */; };
 		AAF6D1CE950E369473B8676BA712452B /* Pods-TestModularization_A_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A35770A19933714DF09EEEB63FC96AE /* Pods-TestModularization_A_Example-dummy.m */; };
 		B204C7E5FCF6DE8D177E3ECEE3909A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -57,8 +57,8 @@
 		7BCE50492281F4D31B4FB6336F4E8CC5 /* TestModularization_A-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestModularization_A-Info.plist"; sourceTree = "<group>"; };
 		7C21E40D3790548B469308EC82BA96BA /* Pods-TestModularization_A_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestModularization_A_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		80D94EF661D234BEF292E5ECD0856663 /* Pods-TestModularization_A_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestModularization_A_Example.release.xcconfig"; sourceTree = "<group>"; };
-		813348152230DFAF001BFAB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		813348172230DFFE001BFAB7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		813348192230E681001BFAB7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = TestModularization_A/Classes/ViewController.swift; sourceTree = "<group>"; };
+		8133481A2230E681001BFAB7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = TestModularization_A/Classes/Main.storyboard; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1F9FF97B7AEEAAB7453FDC7D1CE9044 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AAC0827DEFDB0D943A9E6505FFC3DAF4 /* Pods-TestModularization_A_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestModularization_A_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				EBCE55DD37229D72587C78DCC990378F /* ReplaceMe.swift */,
-				813348152230DFAF001BFAB7 /* ViewController.swift */,
-				813348172230DFFE001BFAB7 /* Main.storyboard */,
+				813348192230E681001BFAB7 /* ViewController.swift */,
+				8133481A2230E681001BFAB7 /* Main.storyboard */,
 				251B8E3B54519F2AA76711329BB7D92E /* Pod */,
 				DDF9B37B76B42BD08FFE38333493D541 /* Support Files */,
 			);
@@ -358,7 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813348182230DFFE001BFAB7 /* Main.storyboard in Resources */,
+				8133481C2230E681001BFAB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813348162230DFAF001BFAB7 /* ViewController.swift in Sources */,
+				8133481B2230E681001BFAB7 /* ViewController.swift in Sources */,
 				AAF6D1CE950E369473B8676BA712452B /* Pods-TestModularization_A_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
