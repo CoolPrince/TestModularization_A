@@ -1,5 +1,4 @@
 # TestModularization_A
-<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/cuchch@163.com/TestModularization_A.svg?style=flat)](https://travis-ci.org/cuchch@163.com/TestModularization_A)
 [![Version](https://img.shields.io/cocoapods/v/TestModularization_A.svg?style=flat)](https://cocoapods.org/pods/TestModularization_A)
@@ -30,4 +29,3 @@ cuchch@163.com, cuchch@163.com
 TestModularization_A is available under the MIT license. See the LICENSE file for more info.
 =======
 组件化-Module-A
->>>>>>> 6021c64dc6accb3141d06e845d1c8445938a836c
