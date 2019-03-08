@@ -21,7 +21,7 @@ import UIKit
             callback("Action_Extension_ViewController_Storyboard success")
         }
 
-        let aViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+        let aViewController = UIStoryboard(name: "A_Main", bundle: nil).instantiateInitialViewController()
         return aViewController!
     }
 
