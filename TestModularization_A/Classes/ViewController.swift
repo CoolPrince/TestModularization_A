@@ -16,8 +16,13 @@ class ViewController: UIViewController {
 
         self.view.backgroundColor = UIColor.blue
 
-        
-        let aViewController = UIStoryboard(name: "A_Main", bundle: nil).instantiateInitialViewController()
+
+        var associateBundleURL = Bundle.main.url(forResource: "Frameworks", withExtension: nil)
+        associateBundleURL = associateBundleURL?.appendingPathComponent("TestModularization_A")
+        associateBundleURL = associateBundleURL?.appendingPathExtension("framework")
+        let associateBunle = Bundle(url: associateBundleURL!)
+        let aViewController = UIStoryboard(name: "A_Main", bundle: associateBunle).instantiateInitialViewController()
+        print("aViewController=\(aViewController)")
     }
     
 
