@@ -21,7 +21,16 @@ import UIKit
             callback("Action_Extension_ViewController_Storyboard success")
         }
 
-        let aViewController = UIStoryboard(name: "A_Main", bundle: nil).instantiateInitialViewController()
+        print("Bundle.allBundles=\(Bundle.allBundles)")
+//        let aViewController = UIStoryboard(name: "A_Main", bundle: nil).instantiateInitialViewController()
+        var associateBundleURL = Bundle.main.url(forResource: "Frameworks", withExtension: nil)
+        associateBundleURL = associateBundleURL?.appendingPathComponent("TestModularization_A")
+        associateBundleURL = associateBundleURL?.appendingPathExtension("framework")
+        let associateBunle = Bundle(url: associateBundleURL!)
+        let aViewController = UIStoryboard(name: "A_Main", bundle: associateBunle).instantiateInitialViewController()
+
+
+
         return aViewController!
     }
 

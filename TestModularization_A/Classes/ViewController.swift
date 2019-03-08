@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         self.view.backgroundColor = UIColor.blue
+
+        
+        let aViewController = UIStoryboard(name: "A_Main", bundle: nil).instantiateInitialViewController()
     }
     
 
